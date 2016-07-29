@@ -25,7 +25,7 @@
         android:layout_gravity="center"
         android:textColor="#fff"
         android:textSize="24dp"
-        android:text="@string/welcome_to_open_sesame"
+        android:text="@string/welcome_to_open_sesame1"
         />
 
         <TextView
@@ -36,7 +36,7 @@
         android:layout_gravity="center"
         android:textColor="#fff"
         android:textSize="20dp"
-        android:text="@string/welcome_to_open_sesame"
+        android:text="@string/welcome_to_open_sesame2"
         />
     </LinearLayout>
 
