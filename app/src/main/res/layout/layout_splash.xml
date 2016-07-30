@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        style="@style/splash_image"
+         />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/splash_middleText1"
+            android:text="@string/welcome_to_open_sesame1"
+            />
+
+        <TextView
+            style="@style/splash_middleText2"
+            android:layout_marginTop="@dimen/margin_default"
+            android:text="@string/welcome_to_open_sesame2"
+             />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/action"
+        style="@style/splash_button"
+        android:text="@string/setup_your_gate" />
+</FrameLayout>

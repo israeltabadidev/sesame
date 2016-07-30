@@ -3,14 +3,79 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="@android:colorPrimary">@color/primary</item>
     </style>
 
+    <style name="splash_image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/img_splash_bg</item>
+    </style>
 
-    <style name="splash_middleText">
+    <style name="splash_middleText1">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:textColor">#fff</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:layout_gravity">center</item>
     </style>
 
+    <style name="splash_middleText2" parent="splash_middleText1">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="button">
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">@color/primary</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="splash_button" parent="button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginRight">@dimen/margin_default</item>
+        <item name="android:layout_marginLeft">@dimen/margin_default</item>
+        <item name="android:layout_marginBottom">@dimen/margin_default_x4</item>
+    </style>
+
+    <style name="toolbarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+
+    <style name="toolbarTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/toolbarTextColor</item>
+        <item name="android:textSize">@dimen/toolbar_text_size</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="editText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/editText_textSize</item>
+    </style>
+
+    <style name="editText_icon_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_default</item>
+    </style>
+
+    <style name="editTextContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+
+    <color name="toolbarTextColor">@android:color/white</color>
+    <dimen name="toolbar_text_size">20dp</dimen>
+    <dimen name="margin_default_1x5">24dp</dimen>
+    <dimen name="editText_textSize">24dp</dimen>
 </resources>
