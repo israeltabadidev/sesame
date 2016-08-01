@@ -19,8 +19,10 @@ public class MainActivity extends FragmentActivity {
         setContentView(R.layout.layout_add_new_gate_holder);
 
         StepFragment fragment = new StepFragment();
-        fragment.getArguments().putInt(Consts.Step,1);
-        getSupportFragmentManager().beginTransaction().replace(R.id.content, fragment);
+        Bundle bundle = new Bundle();
+        bundle.putInt(Consts.Step, 1);
+        fragment.setArguments(bundle);
+        getSupportFragmentManager().beginTransaction().replace(R.id.content, fragment).commit();
     }
 
 

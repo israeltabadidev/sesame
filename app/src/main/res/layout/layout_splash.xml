@@ -12,19 +12,19 @@
         android:layout_gravity="center"
         android:orientation="vertical">
 
-        <TextView
+        <com.smoontz.sesame.views.TextViewRaleway
             style="@style/splash_middleText1"
             android:text="@string/welcome_to_open_sesame1"
             />
 
-        <TextView
+        <com.smoontz.sesame.views.TextViewRaleway
             style="@style/splash_middleText2"
             android:layout_marginTop="@dimen/margin_default"
             android:text="@string/welcome_to_open_sesame2"
              />
     </LinearLayout>
 
-    <Button
+    <com.smoontz.sesame.views.ButtonRaleWay
         android:id="@+id/action"
         style="@style/splash_button"
         android:text="@string/setup_your_gate" />
