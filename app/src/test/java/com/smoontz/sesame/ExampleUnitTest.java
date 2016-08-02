@@ -1,4 +1,4 @@
-package com.smoontz.sesame;
+package com.smoontz.gately;
 
 import org.junit.Test;
 

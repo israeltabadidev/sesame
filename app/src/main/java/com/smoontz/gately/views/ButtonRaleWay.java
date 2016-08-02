@@ -1,10 +1,9 @@
-package com.smoontz.sesame.views;
+package com.smoontz.gately.views;
 
 import android.content.Context;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.widget.Button;
-import android.widget.TextView;
 
 /**
  * Created by danafridman on 01/08/2016.

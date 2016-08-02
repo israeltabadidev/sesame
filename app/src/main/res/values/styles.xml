@@ -44,7 +44,7 @@
     <style name="toolbarStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">?attr/actionBarSize</item>
-        <item name="android:background">@color/primary</item>
+        <item name="android:background">@color/toolbarBgColor</item>
     </style>
 
     <style name="toolbarTextStyle">
@@ -75,7 +75,7 @@
 
 
     <color name="toolbarTextColor">@android:color/white</color>
+    <color name="toolbarBgColor">#1a237e</color>
     <dimen name="toolbar_text_size">20dp</dimen>
-    <dimen name="margin_default_1x5">24dp</dimen>
-    <dimen name="editText_textSize">24dp</dimen>
+    <dimen name="editText_textSize">16dp</dimen>
 </resources>

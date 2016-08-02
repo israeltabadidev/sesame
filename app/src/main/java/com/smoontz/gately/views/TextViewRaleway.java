@@ -1,4 +1,4 @@
-package com.smoontz.sesame.views;
+package com.smoontz.gately.views;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -23,7 +23,7 @@ public class TextViewRaleway extends TextView {
     }
 
     private void init() {
-        Typeface tf = Typeface.createFromAsset(getContext().getAssets(), "Raleway-SemiBold.ttf");
+        Typeface tf = Typeface.createFromAsset(getContext().getAssets(), "Raleway-Medium.ttf");
         setTypeface(tf);
     }
 }
