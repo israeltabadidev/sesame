@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.shmoontz.gately.views.TextViewRaleway
+        android:id="@+id/title"
+        style="@style/toolbarTextStyle"
+        android:layout_below="@id/toolbar"
+        android:layout_margin="24dp"
+        android:text="@string/hint_name_of_the_get"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="24dp"
+        android:orientation="horizontal">
+
+        <com.shmoontz.gately.views.EditTextRalewayRegular
+            android:id="@+id/editText"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            style="@style/editText"
+            android:hint="@string/hint_title" />
+
+        <ImageButton
+            android:background="@drawable/icon_bg"
+            android:id="@+id/icon"
+            tools:src="@drawable/map"
+            android:layout_gravity="center_vertical"
+            android:padding="6dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="24dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

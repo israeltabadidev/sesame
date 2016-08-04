@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/toolbarStyle"
+            android:gravity="center">
+            <include layout="@layout/four_steps_bar"/>
+
+        </android.support.v7.widget.Toolbar>
+
+        <FrameLayout
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar"
+            android:layout_marginTop="24dp" />
+
+        <com.shmoontz.gately.views.ButtonRaleWay
+            android:id="@+id/action"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/content"
+            android:layout_margin="24dp"
+            android:text="@string/next" />
+
+    </RelativeLayout>
+</ScrollView>
