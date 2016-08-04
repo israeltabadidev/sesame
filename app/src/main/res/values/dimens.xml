@@ -6,4 +6,5 @@
     <dimen name="margin_default_double">32dp</dimen>
     <dimen name="margin_default_x4">64dp</dimen>
     <dimen name="margin_default_x3">48dp</dimen>
+    <dimen name="circle_margin">8dp</dimen>
 </resources>

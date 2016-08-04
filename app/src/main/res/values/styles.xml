@@ -73,6 +73,26 @@
         <item name="android:orientation">horizontal</item>
     </style>
 
+    <style name="stepCircleStyle">
+        <item name="android:layout_width">16dp</item>
+        <item name="android:layout_height">16dp</item>
+        <item name="android:layout_marginRight">@dimen/circle_margin</item>
+    </style>
+
+    <style name="stepCircle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/small_step_circle</item>
+    </style>
+
+    <style name="stepCircleSmall">
+        <item name="android:layout_width">8dp</item>
+        <item name="android:layout_height">8dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/small_step_circle</item>
+    </style>
+
 
     <color name="toolbarTextColor">@android:color/white</color>
     <color name="toolbarBgColor">#1a237e</color>
