@@ -1,4 +1,4 @@
-package com.smoontz.gately.activities;
+package com.shmoontz.gately.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -12,9 +12,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.smoontz.gately.R;
-import com.smoontz.gately.utils.Consts;
-import com.smoontz.gately.utils.SimpleTextWatcher;
+import com.shmoontz.gately.R;
+import com.shmoontz.gately.utils.Consts;
+import com.shmoontz.gately.utils.SimpleTextWatcher;
 
 /**
  * Created by danafridman on 30/07/2016.

@@ -1,4 +1,4 @@
-package com.smoontz.gately;
+package com.shmoontz.gately;
 
 import org.junit.Test;
 

@@ -4,4 +4,5 @@
     <color name="primary">#00bfa5</color>
     <color name="statusBarColor">#171F71</color>
     <color name="roundBgColor">#cccccc</color>
+    <color name="small_step_inner_color">#fece00</color>
 </resources>

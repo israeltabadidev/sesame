@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="82dp"
+        android:gravity="center_vertical"
+        android:layout_height="16dp">
+
+        <View
+            android:id="@+id/step1Shape"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/small_step_circle" />
+
+        <View
+            android:id="@+id/step2Shape"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/small_step_circle" />
+
+        <View
+            android:id="@+id/step3Shape"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/small_step_circle" />
+
+        <View
+            android:id="@+id/step4Shape"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/small_step_circle" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:background="@drawable/big_step_ring" />
+
+    <View
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/big_step_ring" />
+
+    <View
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="44dp"
+        android:background="@drawable/big_step_ring" />
+
+    <View
+        android:layout_marginLeft="60dp"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:background="@drawable/big_step_ring" />
+
+
+</FrameLayout>

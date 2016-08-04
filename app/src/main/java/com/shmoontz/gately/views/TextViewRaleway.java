@@ -1,4 +1,4 @@
-package com.smoontz.gately.views;
+package com.shmoontz.gately.views;
 
 import android.content.Context;
 import android.graphics.Typeface;

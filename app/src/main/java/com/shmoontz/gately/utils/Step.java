@@ -1,4 +1,4 @@
-package com.smoontz.gately.utils;
+package com.shmoontz.gately.utils;
 
 /**
  * Created by danafridman on 30/07/2016.

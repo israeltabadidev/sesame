@@ -1,6 +1,6 @@
-package com.smoontz.gately.utils;
+package com.shmoontz.gately.utils;
 
-import com.smoontz.gately.R;
+import com.shmoontz.gately.R;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,7 +16,7 @@ public class Consts {
     private static final Step step2;
     private static final Step step3;
 
-    private static final Map<Integer, Step> steps = new HashMap<>();
+    public static final Map<Integer, Step> steps = new HashMap<>();
 
     static {
         step1 = new Step(R.string.step_1_hint_text,R.string.step_1_title_text,R.string.next,R.string.step_1_desc, 0);
