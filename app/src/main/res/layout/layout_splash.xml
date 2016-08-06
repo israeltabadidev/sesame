@@ -13,19 +13,19 @@
         android:layout_gravity="center_horizontal"
         android:orientation="vertical">
 
-        <com.shmoontz.gately.views.TextViewRaleway
+        <com.shmoontz.gately.views.TextViewRalewayMedium
             android:id="@+id/txt0"
             style="@style/splash_middleText1"
             android:text="@string/welcome" />
 
-        <com.shmoontz.gately.views.TextViewRaleway
+        <com.shmoontz.gately.views.TextViewRalewayMedium
             android:id="@+id/txt1"
             style="@style/splash_middleText1"
             android:layout_margin="@dimen/margin_default"
             android:textSize="40dp"
             android:text="@string/welcome_to_open_sesame1" />
 
-        <com.shmoontz.gately.views.TextViewRaleway
+        <com.shmoontz.gately.views.TextViewRalewayMedium
             android:id="@+id/txt2"
             style="@style/splash_middleText2"
             android:layout_marginTop="@dimen/margin_default"

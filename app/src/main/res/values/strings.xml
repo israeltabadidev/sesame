@@ -24,4 +24,7 @@
     <string name="welcome">Welcome To</string>
     <string name="distance_settings">Distance Settings</string>
     <string name="opening_distance">Opening Distance</string>
+
+    <string name="gps_activation_distance">GPS activation distance</string>
+    <string name="two_kilometers">2 km</string>
 </resources>

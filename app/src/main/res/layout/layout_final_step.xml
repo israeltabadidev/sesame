@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/default_bg"
@@ -12,79 +13,30 @@
         android:elevation="10dp"
         card_view:cardBackgroundColor="@android:color/white">
 
-
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="wrap_content">
 
-            <com.shmoontz.gately.views.TextViewRaleway
+            <include
+                android:id="@+id/top_card"
+                layout="@layout/step_4_top_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include
+                android:id="@+id/sep"
+                layout="@layout/horizontal_rule"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/top_card" />
+
+            <include
+                layout="@layout/step_4_bottom_card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="14dp"
-                android:layout_marginTop="18dp"
-                android:text="@string/distance_settings"
-                android:textColor="@color/primary"
-                android:textSize="14dp" />
+                android:layout_below="@id/sep" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="53dp"
-                    android:layout_height="match_parent">
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="0dp"
-                        android:layout_weight="1"
-                        android:gravity="center_vertical">
-
-                        <com.shmoontz.gately.views.TextViewRaleway
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/opening_distance"
-                            android:textSize="14dp" />
-
-                        <com.shmoontz.gately.views.TextViewRaleway
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="200 meters"
-                            android:textSize="14dp" />
-
-                    </LinearLayout>
-
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="0dp"
-                        android:layout_weight="1"
-                        android:gravity="center_vertical">
-
-                        <com.shmoontz.gately.views.TextViewRaleway
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="hold the door"
-                            android:textSize="14dp" />
-
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-
-            </LinearLayout>
-        </LinearLayout>
-
+        </RelativeLayout>
     </android.support.v7.widget.CardView>
 
 </LinearLayout>

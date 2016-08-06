@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.shmoontz.gately.views.TextViewRaleway
+    <com.shmoontz.gately.views.TextViewRalewayMedium
         android:id="@+id/title"
         style="@style/toolbarTextStyle"
         android:layout_below="@id/toolbar"

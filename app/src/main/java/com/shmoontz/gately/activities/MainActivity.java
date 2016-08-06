@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.shmoontz.gately.R;
@@ -59,6 +60,9 @@ public class MainActivity extends AbsActivity {
 
         s3.animate().scaleX(1f).scaleY(1f).setDuration(ANIM_DURATION);
         s4.animate().scaleX(2f).scaleY(2f).setDuration(ANIM_DURATION);
+
+        ((ViewGroup.MarginLayoutParams)findViewById(R.id.content).getLayoutParams()).topMargin = 0;
+        findViewById(R.id.content).requestLayout();
     }
 
     private void showNextStep() {

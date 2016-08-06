@@ -8,22 +8,22 @@ import android.widget.TextView;
 /**
  * Created by danafridman on 01/08/2016.
  */
-public class TextViewRaleway extends TextView {
-    public TextViewRaleway(Context context) {
+public class TextViewRalewayRegular extends TextView {
+    public TextViewRalewayRegular(Context context) {
         this(context, null);
     }
 
-    public TextViewRaleway(Context context, AttributeSet attrs) {
+    public TextViewRalewayRegular(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public TextViewRaleway(Context context, AttributeSet attrs, int defStyleAttr) {
+    public TextViewRalewayRegular(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init();
     }
 
     private void init() {
-        Typeface tf = Typeface.createFromAsset(getContext().getAssets(), "Raleway-Medium.ttf");
+        Typeface tf = Typeface.createFromAsset(getContext().getAssets(), "Raleway-Regular.ttf");
         setTypeface(tf);
     }
 }
