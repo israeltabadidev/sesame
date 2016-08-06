@@ -22,4 +22,6 @@
     <string name="step_3_title_text">What\'s the gate\'s location?</string>
     <string name="step_3_hint_text">Enter location</string>
     <string name="welcome">Welcome To</string>
+    <string name="distance_settings">Distance Settings</string>
+    <string name="opening_distance">Opening Distance</string>
 </resources>
