@@ -35,7 +35,6 @@
 
     <style name="splash_button" parent="button">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_gravity">bottom</item>
         <item name="android:layout_marginRight">@dimen/margin_default</item>
         <item name="android:layout_marginLeft">@dimen/margin_default</item>
         <item name="android:layout_marginBottom">@dimen/margin_default_x4</item>

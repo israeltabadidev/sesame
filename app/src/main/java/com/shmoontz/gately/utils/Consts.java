@@ -1,5 +1,6 @@
 package com.shmoontz.gately.utils;
 
+import com.google.android.gms.maps.model.LatLng;
 import com.shmoontz.gately.R;
 
 import java.util.HashMap;
@@ -41,7 +42,11 @@ public class Consts {
         return steps.get(anInt).getTitleResId();
     }
 
-    public static int getDescriptionForStep(int anInt) {
-        return steps.get(anInt).getDescResId();
+    public static final long GEOFENCE_EXPIRATION_IN_MILLISECONDS = 12 * 60 * 60 * 1000;
+    public static final float GEOFENCE_RADIUS_IN_METERS = 100;
+
+    public static final HashMap<String, LatLng> LANDMARKS = new HashMap<String, LatLng>();
+    static {
+        LANDMARKS.put("HOME", new LatLng(32.165891,34.9065958));
     }
 }

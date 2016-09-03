@@ -9,14 +9,18 @@ import com.shmoontz.gately.R;
 
 public class SplashActivity extends AbsActivity {
 
-    private Button actionButton;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        actionButton = (Button) findViewById(R.id.action);
-        actionButton.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.actionTest).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SplashActivity.this,TextProximity.class));
+                finish();
+            }
+        });
+        findViewById(R.id.action).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(SplashActivity.this, MainActivity.class));
